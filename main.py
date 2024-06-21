@@ -50,7 +50,7 @@ def main():
         for call_transcript in data["callTranscripts"]:
             with open(f'output/{call_transcript["callId"]}.json', "w") as f:
                 logger.info(
-                    f"Writing call transcript to file {call_transcript["callId"]}.json"
+                    f'Writing call transcript to file {call_transcript["callId"]}.json'
                 )
                 f.write(json.dumps(call_transcript["transcript"]))
 
