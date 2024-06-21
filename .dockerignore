@@ -1,5 +1,8 @@
 .devcontainer/
 .github/
+venv/
 .gitignore
 Dockerfile
 Makefile
+.env.example
+readme.md
