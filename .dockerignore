@@ -1,8 +1,10 @@
 .devcontainer/
 .github/
+.ruff_cache/
 venv/
+.dockerignore
+.env.example
 .gitignore
 Dockerfile
 Makefile
-.env.example
 readme.md
